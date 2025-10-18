@@ -18,6 +18,9 @@ NOW the results are far better - games are playable but with some graphic glitch
 
 Firstly I asked GPT5 chat for a prompt to build fully working a NES emulator in clean C.
 I got a PROMPT:
+
+
+
 "
 You are to implement a **Nintendo NES emulator** in **clean, portable C (C11)** that runs on Linux/macOS/Windows and loads standard **.nes (iNES 1.0) ROM images**. The project must build with a single `Makefile` using `cc` and depend only on **SDL2** for video, audio, and input. Favor clarity, strict correctness, and good structure over cleverness.
 
